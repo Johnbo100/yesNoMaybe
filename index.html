@@ -1,0 +1,47 @@
+<html>
+<HEAD>
+    <title>Yes No Maybe</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+</HEAD>
+
+<BODY>
+    
+    <APP class="app">
+        <div class="scorecard">
+            <h1>Yes No Maybe</h1>
+            <div>Name and Score and Total</div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><input/><input class="points"/></div>
+            <div><H1>Rules</H1></div>
+            <div class="rules"><p>You can only answer with YES or NO</p></div>
+            <div class="rules"><p>You are not allowed to talk in Vietnamese</p></div>
+            <div class="rules"><p>You are not allowed to make gestures </p></div>
+            <div class="rules"><p>The time you have left will be added to your score </p></div>
+            <div class="rules" id="nextImage"><button>Next image</button></div>
+        </div>
+        <div class="tabooImage" id="tabooImage">
+            <img id="tImage" src="./yesnomaybe.png"/>
+            <div id="tName"></div> 
+        </div>
+        
+        <div class="timeContainer">
+            <button id="timerBtn" onclick="countdown()">Start Timer</button>
+            <div id="countdown"></div>
+            <button id="stopBtn" >Stop Timer</button>
+            <div id="timeRemain"></div>
+        </div>
+    </APP>
+    <script src="script.js"></script>
+</BODY>
+
+</html>

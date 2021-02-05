@@ -1,0 +1,90 @@
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-size: cover;
+    
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.scorecard{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    flex-direction: column;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.scorecard input{
+    height:30px;
+    margin:0 auto;
+}
+.scorecard h1{
+    color: rgb(255, 0, 0);
+}
+.timeContainer{
+   
+    padding: 100px 0 0 0;
+}
+#timerBtn{
+    width: 10vw;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+#stopBtn{
+    width: 10vw;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+.tabooImage{
+    width: 40vw;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.tabooImage img{
+    width: 40vw;
+    height: 600px;
+    border: 45px solid #ffffff;
+    border-radius: 4px;
+    padding: 1px;
+    object-fit: cover;
+}
+#countdown{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#timeRemain{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.rules p{
+    color: white;
+    background-color: red;
+    font-size: 1.2rem;
+    margin: 10px;
+    width: 30vw;
+    text-align: center;
+}
+.rules button{
+    width: 30vw;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+#tName{
+    font-size: 3rem;
+    color: #ffffff;
+}
